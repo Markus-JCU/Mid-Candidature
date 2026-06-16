@@ -1,33 +1,54 @@
-{
+ {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://Markus-JCU.github.io/Mid-Candidature/manifests/manifestdesining.json",
   "type": "Manifest",
 
-  "label": { "en": ["Test Manifest"] },
+  "label": {
+    "en": ["Normanby Goldfield Collection"]
+  },
+
+  "summary": {
+    "en": ["Interactive archival collection linked to full research paper."]
+  },
+
+  "seeAlso": [
+    {
+      "id": "https://Markus-JCU.github.io/Mid-Candidature/pdf/Designing2.2.pdf",
+      "type": "Text",
+      "format": "application/pdf",
+      "label": {
+        "en": ["Full Research Paper (PDF)"]
+      }
+    }
+  ],
 
   "items": [
     {
-      "id": "https://Markus-JCU.github.io/canvas/test",
+      "id": "https://Markus-JCU.github.io/Mid-Candidature/canvas-1",
       "type": "Canvas",
       "height": 3000,
       "width": 4000,
+      "label": {
+        "en": ["Historical Map 1870s"]
+      },
 
       "items": [
         {
-          "id": "https://Markus-JCU.github.io/page/test",
+          "id": "https://Markus-JCU.github.io/Mid-Candidature/page-1",
           "type": "AnnotationPage",
 
           "items": [
             {
-              "id": "https://Markus-JCU.github.io/annotation/test",
+              "id": "https://Markus-JCU.github.io/Mid-Candidature/annotation-1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://Markus-JCU.github.io/canvas/test",
+              "target": "https://Markus-JCU.github.io/Mid-Candidature/canvas-1",
 
               "body": {
                 "id": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+
                 "height": 3000,
                 "width": 4000
               }
