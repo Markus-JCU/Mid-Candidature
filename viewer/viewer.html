@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  https://unpkg.com/mirador@latest/dist/mirador.min.js
+</head>
 
+<body>
+
+<h2>Normanby Goldfield Archive Viewer</h2>
+
+<p>
+  Read the full research paper:
+  https://Markus-JCU.github.io/Mid-Candidature/pdf/normanby.pdf" target="_blank">
+    Open PDF
+  </a>
+</p>
+
+<div id="viewer" style="height: 90vh;"></div>
+
+<script>
+Mirador.viewer({
+  id: "viewer",
+  windows: [
+    {
+      manifestId: "https://Markus-JCU.github.io/Mid-Candidature/manifests/manifestdesining.json"
+    }
+  ]
+});
+</script>
+
+</body>
+</html>
